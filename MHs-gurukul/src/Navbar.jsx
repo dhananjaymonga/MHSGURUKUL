@@ -58,6 +58,12 @@ Blog          </NavLink>
             >
               Contact
             </NavLink>
+            <NavLink 
+              to="/Auth" 
+              className="text-gray-700 hover:text-blue-600"
+            >
+              Login
+            </NavLink>
             <button className="text-gray-700 hover:text-blue-600">
               <i className="fas fa-sun"></i>
             </button>

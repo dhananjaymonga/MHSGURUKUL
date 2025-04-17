@@ -21,6 +21,9 @@ import BlogDetails from "./Pages/BlogDetails"
 // import NoteDetails from "./NoteDetails";
 import Notes from "./Notes"
 import Quiz from "./Quiz/Quiz"
+import Login from "./Auth/Login";
+import Signup from "./Pages/Singup";
+import Auth from "./Auth/Auth"
 const container = document.getElementById("root");
 const root = createRoot(container);
 
@@ -54,6 +57,18 @@ const router= createBrowserRouter([
   {
     path:"/admin-login", 
     element:<AdminLogin/>
+  },
+  {
+    path:"/login", 
+    element:<Login/>
+  },
+  {
+    path:"/Singup", 
+    element:<Signup/>
+  },
+  {
+    path:"/Auth", 
+    element:<Auth/>
   },
   {
     path:"/notes", 
