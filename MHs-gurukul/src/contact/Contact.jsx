@@ -252,7 +252,7 @@
 //                         </AccordionTrigger>
 //                         <AccordionContent>
 //                           All our study materials are available through our online learning portal. After registration, you'll have immediate access to all resources related to your courses.
-//                         </AccordionContent>
+//                         </AccordionContent>uj
 //                       </AccordionItem>
                       
 //                       <AccordionItem value="item-2">

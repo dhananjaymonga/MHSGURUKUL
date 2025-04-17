@@ -14,7 +14,7 @@ const Blog = require("./models/blog"); // ✅ Use consistent naming
 
 // const bcrypt = require('bcryptjs');
 
-const mongoURI = "mongodb://localhost:27017/mydatabase"; 
+const mongoURI = "mongodb+srv://sarikamonga2306:aCNZgUAZibU6x0au@cluster0.xjq9zqg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"; 
 const JWT_SECRET = 'dhananjay'; // Replace with .env in production
 
 // Connect to MongoDB
